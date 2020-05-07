@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/item_tenkhoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TÊN KHOẢN CHI TIÊU"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/item_nguoitao"
+            android:textSize="14sp"
+            android:paddingLeft="10dp"
+            android:hint="Người tạo: Lê Văn Bắc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/item_ngaytao"
+            android:textSize="14sp"
+            android:paddingLeft="10dp"
+            android:hint="Ngày tạo: 05/05/2020"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/item_sotien"
+            android:textSize="14sp"
+            android:paddingLeft="10dp"
+            android:hint="Số tiền: 0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/item_ghichu"
+            android:textSize="14sp"
+            android:paddingLeft="10dp"
+            android:hint="Ghi chú:..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
